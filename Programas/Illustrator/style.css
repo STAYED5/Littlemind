@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    border: 0;
+    padding:0 ;
+}
+ 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:var(--i);
+    background-size:cover;
+    background-position: center;
+    overflow: hidden;
+}
+.header{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.8);
+    width: 40vh;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;}
+.header-base{
+    padding-top: 40px;
+    width: 80%;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family:"Konkhmer Sleokchher", system-ui, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    border-bottom: solid black 3px;
+}
+.P1{
+    padding: 20px;
+    font-size: 15px;
+}
+/*Contorno*/
+
+.A1{
+    margin: 10px;
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+    border-bottom:solid black 3px;
+
+}
+.H1{
+
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.B1{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 40px;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    background: transparent;
+    transition: all 0.3s ease 0s;;
+}
+.B1 a{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+
+}
+.B1:hover{
+    color:white;
+        background: #80d7f1;
+        border-color: #80d7f1;
+        transform: scale(1.1);}

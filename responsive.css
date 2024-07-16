@@ -1,0 +1,46 @@
+@media (max-width:600px) {
+    .title{
+       font-size: 3rem;}
+    .header{
+        height: 30vh;}
+    footer a, p{
+        font-size:12px;}
+   /*Box*/
+   .box-container{
+    padding: 20px;
+   gap: 80px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;}
+.box-container .box{
+   text-align: center;}
+.box-container i{
+   height: 7rem;
+   width: 7rem;
+   line-height: 7rem;
+   text-align: center;
+   border-radius: 50%;
+   color: #000000;
+   border: solid 2px black ;
+   font-size: 4rem;
+   transition: all .3s ease ;}
+.box-container i:hover{
+   color: white;
+   background-color: #313131;}
+.box h3{
+   margin:20px;
+   font-size: 2rem;}
+.box-container a{
+   display:inline-block;
+   text-decoration: none;
+   color: black;
+   border:solid black;
+   padding: 10px 15px;
+   border-radius: 6%;
+   transition: all .4s ease;}
+.box a:hover{
+   color:white;
+   background: #1573c0;
+   border-color: #1573c0;
+   transform: scale(1.1);
+   transform: translateY(-30%);}}
